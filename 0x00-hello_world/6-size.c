@@ -1,6 +1,6 @@
 
 /*
- * File type:c
+ * File name : 6-size.c
  * By: Teleza Kanthonga
  */
 #include <stdio.h>
