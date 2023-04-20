@@ -7,7 +7,7 @@
 #include <stdio.h>
 /**
  * This is the  main function 
- * main cout: Programming is like building a multilingual
+ * main cout: "Programming is like building a multilingual
  *                puzzle, followed by a new line.
  *
  * Return: Always 0.
