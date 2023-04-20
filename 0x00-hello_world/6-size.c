@@ -1,6 +1,6 @@
 
 /*
- * File name : 6-size.c
+ * File name: 6-size.c
  * By: Teleza Kanthonga
  */
 #include <stdio.h>
@@ -9,7 +9,7 @@
  * main - Prints: " the size of various types based on
  *        the computer it is compiled and run on..
  *
- * Return 0.
+ * Return: return value is 0.
  */
 int main(void)
 {
