@@ -4,9 +4,7 @@
  * alx software engineering
  * 20 April 2023
  */
-
 #include <stdio.h>
-
 /**
  * This is the  main function 
  * main cout: Programming is like building a multilingual
