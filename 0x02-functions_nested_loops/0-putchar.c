@@ -1,12 +1,8 @@
-/**
- *
- * by Teleza
- * 25th April 2023
- */
+
 #include "main.h"
 
 /**
- * main function
+ * main function"prints _putchar, followed by a new line
  * Return: Always 0
  */
 int main(void){
