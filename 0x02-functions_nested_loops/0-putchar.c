@@ -1,11 +1,15 @@
 
-#include "main.h"
+#include "main"
 
 /**
- * main function"prints _putchar, followed by a new line
- * Return: Always 0
+ * main - Entry point
+ *
+ * Description: Prints the word "_putchar" using the _putchar function
+ *
+ * Return: Always 0 (Success)
  */
-int main(void){
+int main(void)
+{
 	_putchar('_');
 	_putchar('p');
 	_putchar('u');
@@ -13,8 +17,8 @@ int main(void){
 	_putchar('c');
 	_putchar('h');
 	_putchar('a');
-        _putchar('r');
-	  _putchar('\n');
-		        
-          return (0);
+	_putchar('r');
+	_putchar('\n');
+
+	return (0);
 }
