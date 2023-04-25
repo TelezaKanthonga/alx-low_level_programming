@@ -1,9 +1,7 @@
 #include "main.h"
 
 /**
- * print_alphabet_x10 - Prints the English alphabet from a to z, 10 times.
- *
- * Description: Uses _putchar to print each letter of the alphabet, followed by a new line, 10 times.
+ * print_alphabet_x10 - Prints the English alphabet from a to z "Uses _putchar to print each letter of the alphabet," 10 times.
  *
  * Return: Nothing.
  */
