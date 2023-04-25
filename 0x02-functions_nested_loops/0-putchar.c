@@ -3,8 +3,7 @@
  * by Teleza
  * 25th April 2023
  */
-#include 'main.h'
-#include <stdio.h>
+#include "main.h"
 
 /**
  * main function
@@ -18,7 +17,8 @@ int main(void){
 	_putchar('c');
 	_putchar('h');
 	_putchar('a');
-         _putchar('r');
+        _putchar('r');
+	  _putchar('\n');
 		        
-          return 0;
+          return (0);
 }
