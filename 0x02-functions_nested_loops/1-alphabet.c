@@ -1,9 +1,7 @@
 #include "main.h"
-
 /**
- * print_alphabet - Entry point
- * 
- * Return: Nothing
+ * print_alphabet - prints the english alphabet from a-z.
+ * Return: Nothing.
  */
 void print_alphabet(void)
 {
@@ -13,7 +11,5 @@ void print_alphabet(void)
 	{
 		_putchar(c);
 	}
-
 	_putchar('\n');
 }
-
