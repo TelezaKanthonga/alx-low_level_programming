@@ -1,21 +1,29 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdli.h>
 #include <time.h>
+
 /**
- * main - entry point and generate random password of 100 length
- * Return : Always 0
+ * main - Entry point and generates a random password of length 100
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
     int i;
     char password[100];
+    char expected_password[] = "Tada! Congrats";
     srand(time(NULL));
     for (i = 0; i < 100; i++)
     {
-      
         password[i] = rand() % 94 + 33;
-  }
-    printf("%s\n", password);
+    }
+    if (strcmp(password, expected_password) == 0)
+    {
+        printf("Tada! Congrats\n");
+    }
+    else
+    {
+        printf("Wrong password\n");
+    }
 
     return (0);
 }
