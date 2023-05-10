@@ -1,10 +1,8 @@
 #include "main.h"
-
 /**
- *factorial - calculates factorial of n
- *@n: integer
- *
- *Return: On success 1 and -1 on error
+ *factorial -calculates factorial of n
+ *@n :integer
+ *Return :On success 1 and -1 on error
  */
 int factorial(int n)
 {
